@@ -1,5 +1,5 @@
 #include <algorithm>
-#include <chrono> // Įtraukiame biblioteką, kuri leidžia matuoti laiką
+#include <chrono>
 #include <exception>
 #include <fstream>
 #include <iostream>
