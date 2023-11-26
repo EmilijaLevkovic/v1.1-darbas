@@ -13,12 +13,13 @@ using std::chrono::microseconds;
 using std::chrono::seconds;
 using namespace std;
 
-struct StudentasV1 {
-  string vardas;
-  string pavarde;
-  vector<int> nd;   // Namų darbų pažymiai
-  int egz;          // Egzamino pažymys
-  double galutinis; // Galutinis balas
+class StudentasV1 {
+  public: // nurodome, kad šie nariai yra vieši ir galimi iš išorės
+    string vardas;
+    string pavarde;
+    vector<int> nd;   // Namų darbų pažymiai
+    int egz;          // Egzamino pažymys
+    double galutinis; // Galutinis balas
 };
 
 
