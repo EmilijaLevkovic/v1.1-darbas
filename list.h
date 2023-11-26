@@ -17,9 +17,9 @@ class StudentasL1 {
   public: // nurodome, kad šie nariai yra vieši ir galimi iš išorės
     string vardas;
     string pavarde;
-    list<int> nd;   // Namų darbų pažymiai
-    int egz;          // Egzamino pažymys
-    double galutinis; // Galutinis balas
+    list<int> nd;
+    int egz;  
+    double galutinis; 
 };
 
 list<StudentasL1> nuskaityti_duomenis_list(const string& failo_vardas);
