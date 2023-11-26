@@ -2,8 +2,8 @@
 #include <list>
 #include <utility>
 #include <iostream>
-#include "vector1.h"
-#include "list1.h"
+#include "vector.h"
+#include "list.h"
 using namespace std;
 
 
